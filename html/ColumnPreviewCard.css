@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(212, 208, 208);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    max-width: 750px;
+    max-height: 400px;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card__first {
+    background-color: rgb(247, 150, 25);
+    display: flex;
+    align-items: flex;
+    justify-content: flex;
+    height: 33.50%;
+    max-width:250px;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+
+.card__second {
+    background-color: rgb(49, 45, 40);
+    display: flex;
+    align-items: flex;
+    justify-content: flex;
+    height: 33.50%;
+    max-width:250px;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.card__tree {
+    background-color: rgb(192, 185, 177);
+    display: flex;
+    align-items: flex;
+    justify-content: flex;
+    height: 33.50%;
+    max-width:250px;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
