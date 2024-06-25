@@ -11,56 +11,124 @@ body {
     padding: 0;
     margin: 0;
     font-family: Montserrat, sans-serif;
+    color: white;
 }
 
 .container {
     position: relative;
-    display: flex;
-    align-items: flex-start;
-    align-items: flex-start;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     width: 100%;
     margin: auto;
-    max-width: 750px;
-    max-height: 400px;
+    max-width: 920px;
+    max-height: 500px;
     height: 100%;
     border-radius: 10px;
     overflow: hidden;
+    font-size: 15px;
+    
+}
+
+.card__first, .card__second, .card__tree {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 40px;
+   
 }
 
 .card__first {
-    background-color: rgb(247, 150, 25);
-    display: flex;
-    align-items: flex;
-    justify-content: flex;
-    height: 33.50%;
-    max-width:250px;
-    height: 100%;
-    width: 100%;
-    padding: 20px;
+    background-color: #E28625;
+
 }
 
-
 .card__second {
-    background-color: rgb(49, 45, 40);
-    display: flex;
-    align-items: flex;
-    justify-content: flex;
-    height: 33.50%;
-    max-width:250px;
-    height: 100%;
-    width: 100%;
-    padding: 20px;
+    background-color: #006971; 
+   
 }
 
 .card__tree {
-    background-color: rgb(192, 185, 177);
-    display: flex;
-    align-items: flex;
-    justify-content: flex;
-    height: 33.50%;
-    max-width:250px;
-    height: 100%;
-    width: 100%;
-    padding: 20px;
+    background-color: #004140;
+   
 }
+
+.first___texte--title {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.text__des {
+    margin-bottom: 100px;
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: outfit "sans sans-serif";
+}
+
+/* .card__first--cercle {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: #979797;
+    opacity: 0.3;
+} */
+
+.card__btn {
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    width: 146px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* margin-top: 80px; */   
+    cursor: pointer;
+    margin-top: auto;
+    
+}
+
+
+
+.card__btn:hover {
+    color: rgb(12, 11, 11);
+}
+
+.card__btn--color1 {
+    color:  #E28625;
+}
+
+
+
+.card__btn--color2 {
+    color: #006971;
+}
+
+
+
+
+.card__btn--color3 {
+    color: #004140;
+}
+
+.attribution {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3D8168;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;    
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.attribution a:visited {
+    color: rgb(17, 16, 17); /* Couleur des liens visités */
+}
+
+.attribution a:hover {
+    color: rgb(102, 11, 11); /* Couleur des liens au survol */
+}
+
